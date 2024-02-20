@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helios Rounded';
+  src: local('Helios Rounded'), local('Helios Rounded'),
+
+    url('../fonts/Helios Rounded.woff') format('woff');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Borned';
+  src: local('Borned'), local('Borned'),
+
+    url('../fonts/Borned.woff') format('woff');
+
+  font-style: normal;
+}

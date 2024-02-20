@@ -1,0 +1,173 @@
+.sec6main {
+    background-image: url('../assets/sec6img.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    cursor: default;
+
+}
+
+.sec6pointer {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 30px 0px;
+}
+
+.sec6content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 83px;
+    gap: 50px;
+
+}
+
+.sec6head01 {
+    color: white;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px;
+    /* 76% */
+    text-transform: uppercase;
+}
+
+.sec6para01 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.sec6c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+}
+
+.sec6c2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+}
+
+.c1l {
+    width: 100%;
+
+}
+
+.c1r {
+    width: 100%;
+}
+
+.c1percent {
+    text-align: right;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #B0EAFD 0%, #C783FC 56.66%, #F9FB32 103.61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.c2percent {
+    text-align: left;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #B0EAFD 0%, #C783FC 56.66%, #F9FB32 103.61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.c1head {
+    color: #FFF;
+    font-family: Borned;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 85.714% */
+}
+
+.c1para {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-bottom: 0px;
+}
+
+.c2head {
+    color: #FFF;
+    font-family: Borned;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    line-height: 24px;
+    /* 85.714% */
+}
+
+.c2para {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    text-align: right;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .sec6c2 {
+        gap: 70px;
+    }
+
+    .sec6c1 {
+        gap: 70px;
+    }
+
+    .c2para {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .c1para {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
